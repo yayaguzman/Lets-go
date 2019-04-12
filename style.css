@@ -1,11 +1,314 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900');
-
-body, html{
-	font-family: "Montserrat", sans serif;
+*{
 	margin: 0;
 	padding: 0;
 }
 
+body, html{
+	
+	font-family: 'Montserrat', sans-serif;
+	background: #ffffff;
+}
+
+nav{
+	height: 80px;
+	width: 100%;
+	background: #ffffff;
+	position: fixed;
+	z-index: 1;
+	box-sizing: border-box;
+	box-shadow: 0 4px 4px rgba(0,0,0,.2);
+	padding: 0 130px 0 130px;
+	top: 0;
+}
+
+nav .logo{
+	background: url(img/logo.png);
+	background-size: 100%; 
+	width: 135px;
+	height: 52px;
+	top: 50%;
+	margin: -26px 0 0 0;
+	position: absolute;
+	display: block;
+	padding: 0;
+	}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li{
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	margin: 31px 20px;
+	display: inline-block;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+nav ul li a:hover{
+	color: #FF5A5A;
+}
+
+.btn_download{
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #FF5A5A;
+	height: 60px;
+	border-radius: 30px;
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 18px;
+	height: 100%; /*avoid my cta to become bigger or the height to be bigger */
+	display: inline-block;
+}
+
+.btn_download:hover{
+	color: white;
+	background-color: #073A68;
+}
+
+.btn_download.btn_download_nav{
+	margin: 20px 0px 20px 20px;/*combine classes to apply new properties only one element*/
+}
+
+h1{
+	font-size: 50px;
+}
+
+h2{
+	font-size: 40px;
+}
+
+h3{
+	font-size: 24px;
+}
+
 .hero{
+	height: 100vh;
+ 	box-sizing: border-box;
+ 	position: relative;
+	background: #F9D156;
+	overflow: hidden;
+}
+
+.hero_title{
+	padding-bottom: 20px;
+}
+
+.hero_subtitle{
+	padding-bottom: 30px;
+}
+
+
+.text_hero{
+	position: absolute;
+	top: 33%;
+	left: 18%;
+}
+
+.globe{
+	background-image: url(img/globe.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 356px;
+	height: 321px;
+	top: 33%;
+	position: absolute;
+	right: 18%;
+}
+
+.how_section{
+	background: #073A68;
+	color: white;
+	text-align: center;
+	padding: 100px;
+}
+
+.col_icon_1, .col_icon_2, .col_icon_3{
+	display: inline-block;
+	margin: 100px 50px 0;
+}
+
+.icon_1{
+	background-image: url(img/icon_1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 122px;
+	height: 125px;
+	margin-bottom: 30px;
+}
+
+.icon_2{
+	background-image: url(img/icon_2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 249px;
+	height: 114px;
+	margin-bottom: 30px;
+}
+
+.icon_3{
+	background-image: url(img/icon_3.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 170px;
+	height: 121px;
+	margin-bottom: 30px;
+}
+
+.lots_section{
+	text-align: center;
+	margin: 100px auto 80px;
+	width: 800px; 
+}
+
+.lots_section p{
+	margin-top: 30px;
+	font-size: 24px; /* ask if it is posible to have an H3 but without being bold"*/
+}
+
+.divider{
+	width: 300px;
+	height: 10px;
+	background-color: black;
+	text-align: center;
+	margin: 80px auto;
+}
+
+.easy_section p{
+	text-align: center;
+	margin: 40px;
+	font-size: 22px;
+}
+
+.global_wrapper{
+
+}
+
+.phone_pic{
+	background-image: url(img/iPhone_X_all.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 600px;
+	width: 424px;
+	margin-left:19%; 
+	display: inline-block;
+}
+
+.table_wrapper{
+	margin-right: 19%;
+	float: right;
+}
+
+.table_wrapper h3{
+	margin-bottom: 30px;
+	font-size: 34px;
+}
+
+.first, .second, .third, .fourth, .fifth, .sixth{
+	background-color: #EDEDED;
+	width: 362px;
+	height: 60px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	padding: 8px;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.first_pic{
+	background-image: url(img/picbig.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 48px;
+	width: 45px;
+	float: left;
+	margin-right: 20px;
+}
+
+.second_pic{
+	background-image: url(img/pic1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 48px;
+	width: 45px;
+	float: left;
+	margin-right: 20px;
+	box-sizing: border-box;
+}
+
+.second_name{
+	margin: 12px;
+}
+
+/* <div class="easy_section">
+		<div class="global_wrapper">
+			<div class="phone_pic"> </div>
+			<div class="table_wrapper">
+				<h3> That easy it is to</br>find new mates: </h3>
+				<div class="table_people">
+					<div class="first"> 
+						<div class="first_pic"></div>Maria Schnotin 
+					</div>
+					<div class="second">
+						<div class="second_pic"></div> 
+						<div class="second_name">Julia Knoznovolic</div>
+					</div>
+					<div class="third">Romain Lepetfourni</div>
+					<div class="fourth">Yuri Castellanos</div>
+					<div class="fifth">Jörg Wassermelone</div>
+					<div class="sixth">Jean-Luc Ribeaupierre</div>
+				</div>
+			</div>
+		</div>
+		<p>You can send messages and chat with potential travel partners and start planning </br> our next trip with awesome people.</p>
+	</div>		
+ */
+
+
+.cta_section{
+	background-color: #EDEDED;
+	padding: 20px;	
+	text-align: center;
+}
+
+footer{
+	height: 150px;
+	background-color: #073A68;
+	font-size: 26px;
+	text-align: center;
+}
+
+
+footer .logo_footer{
+	width: 106px;
+	height: 41px;
+	background-image: url(img/logo_white.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	display: block;
 	
 }
+
+footer p{
+	color: rgba(255,255,255,.5);
+	display: block;
+}
+
+
+
+
+
+	
