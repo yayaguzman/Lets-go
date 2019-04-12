@@ -169,7 +169,7 @@ h3{
 .lots_section{
 	text-align: center;
 	margin: 100px auto 80px;
-	width: 800px; 
+	width: 840px; 
 }
 
 .lots_section p{
@@ -191,10 +191,6 @@ h3{
 	font-size: 22px;
 }
 
-.global_wrapper{
-
-}
-
 .phone_pic{
 	background-image: url(img/iPhone_X_all.png);
 	background-repeat: no-repeat;
@@ -212,29 +208,53 @@ h3{
 
 .table_wrapper h3{
 	margin-bottom: 30px;
-	font-size: 34px;
+	font-size: 30px;
+	font-weight: 900;
 }
 
-.first, .second, .third, .fourth, .fifth, .sixth{
+.second, .third, .fourth, .fifth, .sixth{
 	background-color: #EDEDED;
-	width: 362px;
+	width: 320px;
 	height: 60px;
 	border-radius: 5px;
-	margin-bottom: 20px;
+	margin-bottom: 14px;
 	box-sizing: border-box;
 	padding: 8px;
 	font-size: 20px;
 	line-height: 20px;
 }
 
+.first{
+	background-color: white;
+	width: 320px;
+	height: 100px;
+	border-radius: 5px;
+	margin-bottom: 14px;
+	box-sizing: border-box;
+	padding: 8px;
+	font-size: 20px;
+	line-height: 20px;
+	border-color: #DADADA;
+	border-style: solid;
+	border-width: 1px;
+} 
+
 .first_pic{
 	background-image: url(img/picbig.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 48px;
-	width: 45px;
+	height: 96px;
+	width: 100px;
 	float: left;
 	margin-right: 20px;
+}
+
+.first_name{
+	margin: 40px 12px;
+}
+
+.second_name, .third_name, .fourth_name, .fifth_name, .sixth_name{
+	margin: 12px;
 }
 
 .second_pic{
@@ -248,9 +268,51 @@ h3{
 	box-sizing: border-box;
 }
 
-.second_name{
-	margin: 12px;
+.third_pic{
+	background-image: url(img/pic2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 48px;
+	width: 45px;
+	float: left;
+	margin-right: 20px;
+	box-sizing: border-box;
 }
+
+.fourth_pic{
+	background-image: url(img/pic3.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 48px;
+	width: 45px;
+	float: left;
+	margin-right: 20px;
+	box-sizing: border-box;
+}
+
+.fifth_pic{
+	background-image: url(img/pic4.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 48px;
+	width: 45px;
+	float: left;
+	margin-right: 20px;
+	box-sizing: border-box;
+}
+
+.sixth_pic{
+	background-image: url(img/pic5.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 48px;
+	width: 45px;
+	float: left;
+	margin-right: 20px;
+	box-sizing: border-box;
+}
+
+
 
 /* <div class="easy_section">
 		<div class="global_wrapper">
@@ -299,7 +361,7 @@ footer .logo_footer{
 	background-repeat: no-repeat;
 	box-sizing: border-box;
 	display: block;
-	
+
 }
 
 footer p{
