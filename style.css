@@ -195,8 +195,8 @@ h3{
 	background-image: url(img/iPhone_X_all.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 600px;
 	width: 424px;
+	height: 600px;
 	margin-left:19%; 
 	display: inline-block;
 }
@@ -204,12 +204,60 @@ h3{
 .table_wrapper{
 	margin-right: 19%;
 	float: right;
+	display: inline-block;
 }
 
 .table_wrapper h3{
 	margin-bottom: 30px;
 	font-size: 30px;
 	font-weight: 900;
+}
+
+.table_people{
+	background-color: black;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.first{
+	background-color: white;
+	width: 320px;
+	height: 100px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-size: 20px;
+	line-height: 20px;
+	border-color: #DADADA;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 14px;
+	box-shadow: 0 3px 7px rgba(0,0,0,.3);
+	/*transform: rotate(-5deg); */
+	position: relative;
+} 
+
+.first:after{
+	content:"";
+	background-image: url(img/picbig.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 80px;
+	height: 83px;
+	position: absolute;
+	top: -19px;
+    left: -12px
+}
+
+.first .first_name{
+	margin: 10px 0 12px 80px;
+}
+
+.first .first_info{
+	font-size: 16px;
+	font-weight: 300;
+	color: rgba(0,0,0,.3);
+	margin: 10px 0 12px 80px;
+	word-spacing: 10px;
 }
 
 .second, .third, .fourth, .fifth, .sixth{
@@ -224,35 +272,6 @@ h3{
 	line-height: 20px;
 }
 
-.first{
-	background-color: white;
-	width: 320px;
-	height: 100px;
-	border-radius: 5px;
-	margin-bottom: 14px;
-	box-sizing: border-box;
-	padding: 8px;
-	font-size: 20px;
-	line-height: 20px;
-	border-color: #DADADA;
-	border-style: solid;
-	border-width: 1px;
-} 
-
-.first_pic{
-	background-image: url(img/picbig.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	height: 96px;
-	width: 100px;
-	float: left;
-	margin-right: 20px;
-}
-
-.first_name{
-	margin: 40px 12px;
-}
-
 .second_name, .third_name, .fourth_name, .fifth_name, .sixth_name{
 	margin: 12px;
 }
@@ -261,8 +280,8 @@ h3{
 	background-image: url(img/pic1.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 48px;
 	width: 45px;
+	height: 48px;
 	float: left;
 	margin-right: 20px;
 	box-sizing: border-box;
@@ -272,8 +291,8 @@ h3{
 	background-image: url(img/pic2.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 48px;
 	width: 45px;
+	height: 48px;
 	float: left;
 	margin-right: 20px;
 	box-sizing: border-box;
@@ -283,8 +302,8 @@ h3{
 	background-image: url(img/pic3.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 48px;
 	width: 45px;
+	height: 48px;
 	float: left;
 	margin-right: 20px;
 	box-sizing: border-box;
@@ -294,8 +313,8 @@ h3{
 	background-image: url(img/pic4.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 48px;
 	width: 45px;
+	height: 48px;
 	float: left;
 	margin-right: 20px;
 	box-sizing: border-box;
@@ -305,8 +324,8 @@ h3{
 	background-image: url(img/pic5.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 48px;
 	width: 45px;
+	height: 48px;
 	float: left;
 	margin-right: 20px;
 	box-sizing: border-box;
