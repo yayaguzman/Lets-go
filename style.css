@@ -105,6 +105,10 @@ h3{
 	padding-bottom: 20px;
 }
 
+.hero_title span, .col_icon_1 span, .col_icon_2 span, .col_icon_3 span{
+	color: #FF5A5A;
+}
+
 .hero_subtitle{
 	padding-bottom: 30px;
 }
@@ -208,31 +212,28 @@ h3{
 }
 
 .table_wrapper h3{
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	font-size: 30px;
 	font-weight: 900;
 }
 
 .table_people{
-	background-color: black;
 	box-sizing: border-box;
-	padding: 20px;
 }
 
 .first{
 	background-color: white;
 	width: 320px;
-	height: 100px;
+	height: 110px;
 	border-radius: 5px;
 	box-sizing: border-box;
-	font-size: 20px;
 	line-height: 20px;
 	border-color: #DADADA;
 	border-style: solid;
 	border-width: 1px;
-	margin-bottom: 14px;
+	margin-bottom: 18px;
 	box-shadow: 0 3px 7px rgba(0,0,0,.3);
-	/*transform: rotate(-5deg); */
+	transform: rotate(-5deg); 
 	position: relative;
 } 
 
@@ -249,15 +250,36 @@ h3{
 }
 
 .first .first_name{
-	margin: 10px 0 12px 80px;
+	margin: 10px 0 10px 80px;
+	font-size: 20px;
 }
 
 .first .first_info{
 	font-size: 16px;
 	font-weight: 300;
 	color: rgba(0,0,0,.3);
-	margin: 10px 0 12px 80px;
+	margin: 10px 0 10px 80px;
 	word-spacing: 10px;
+}
+.first .first_divider{
+	width: 230px;
+	height: 1px;
+	margin: 10px 20px 8px 70px;
+	background-color: rgba(0,0,0,.1)
+}
+
+.first .first_icon{
+	background-image: url(img/plane.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 23px;
+	height: 14px;
+	margin: 3px 10px 10px 82px;
+	float: left;
+}
+
+.first .first_destination{
+	font-size: 16px;
 }
 
 .second, .third, .fourth, .fifth, .sixth{
@@ -265,7 +287,7 @@ h3{
 	width: 320px;
 	height: 60px;
 	border-radius: 5px;
-	margin-bottom: 14px;
+	margin-bottom: 12px;
 	box-sizing: border-box;
 	padding: 8px;
 	font-size: 20px;
@@ -332,35 +354,10 @@ h3{
 }
 
 
-
-/* <div class="easy_section">
-		<div class="global_wrapper">
-			<div class="phone_pic"> </div>
-			<div class="table_wrapper">
-				<h3> That easy it is to</br>find new mates: </h3>
-				<div class="table_people">
-					<div class="first"> 
-						<div class="first_pic"></div>Maria Schnotin 
-					</div>
-					<div class="second">
-						<div class="second_pic"></div> 
-						<div class="second_name">Julia Knoznovolic</div>
-					</div>
-					<div class="third">Romain Lepetfourni</div>
-					<div class="fourth">Yuri Castellanos</div>
-					<div class="fifth">Jörg Wassermelone</div>
-					<div class="sixth">Jean-Luc Ribeaupierre</div>
-				</div>
-			</div>
-		</div>
-		<p>You can send messages and chat with potential travel partners and start planning </br> our next trip with awesome people.</p>
-	</div>		
- */
-
-
 .cta_section{
 	background-color: #EDEDED;
-	padding: 20px;	
+	padding: 100px;	
+	margin-top: 100px;
 	text-align: center;
 }
 
