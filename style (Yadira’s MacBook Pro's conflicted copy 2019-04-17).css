@@ -333,13 +333,15 @@ h3{
 .cta_section{
 	background-color: #EDEDED;
 	margin-top: 100px;
+	text-align: center;
 }
 
 .cta_section_wrapper{
+	margin: 0 auto;
 	position: relative;
-	height: 250px;
-	/* align-items: center; /*aligns elements vertically centered */
-    /* display: flex;
+	height: 300px;
+	/* align-items: center; /*aligns elements vertically centered
+    display: flex;
     flex-wrap: wrap;
     justify-content: center; /*centers the content as text align center*/
 }
@@ -351,16 +353,16 @@ h3{
 	width: 100px;
 	height: 176px;
 	position: absolute;
-	left: 32%;
-    bottom: -7px;
+	top:20%;
+	left: 20%;
+
 }
 
 .cta_section .cta_section_wrapper .btn_download{
 	position: absolute;
 	box-sizing: border-box;
 	height: 45px;
-	left: 42%;
-    top: 43%;
+	bottom: 50%;
 }
 
 .img_tucan{
@@ -370,10 +372,8 @@ h3{
 	width: 132px;
 	height: 172px;
 	position: absolute;
-	right: 30%;
-    bottom: -12px;
-	/*border-style: solid;
-  	border-width: 1px; */
+	right: 20%;
+	bottom: 50%;
 }
 
 
