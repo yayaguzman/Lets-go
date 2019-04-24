@@ -336,6 +336,7 @@ h3{
 }
 
 .cta_section_wrapper{
+	clear: right;
 	position: relative;
 	height: 250px;
 	/* align-items: center; /*aligns elements vertically centered */
