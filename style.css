@@ -4,6 +4,7 @@
 	padding: 0;
 }
 
+
 body, html{
 	
 	font-family: 'Montserrat', sans-serif;
@@ -333,6 +334,7 @@ h3{
 .cta_section{
 	background-color: #EDEDED;
 	margin-top: 100px;
+
 }
 
 .cta_section_wrapper{
@@ -423,6 +425,19 @@ footer p{
 	margin: 0 auto;
 	padding: 10px 0;
 } */
+
+/*mobile breakpoint */
+@media only screen and (max-width:768px){
+
+
+}
+
+/*tablet breakpoint */
+@media only screen and (min-width:768px) and (max-width:1200px){
+
+
+}
+
 
 
 
